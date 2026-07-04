@@ -1,0 +1,35 @@
+# Quartus build databases and reports
+db/
+incremental_db/
+output_files/
+greybox_tmp/
+hc_output/
+.qsys_edit/
+
+# Quartus generated files
+*.qws
+*.rpt
+*.summary
+*.smsg
+*.done
+*.pin
+*.sof
+*.pof
+*.jdi
+*.sld
+*.qar
+*.qarlog
+*.qdf
+
+# Editor backups
+*.bak
+
+# Local working notes
+context.md
+
+# ModelSim simulation output
+simulation/
+work/
+transcript
+vsim.wlf
+*.vstf
