@@ -4,6 +4,10 @@ use IEEE.NUMERIC_STD.ALL;
 
 -- Rotary encoder interface: quadrature decoder plus push button debounce.
 --
+-- The sampled state machine is based on a design by my thesis mentor
+-- A. Trost (Faculty of Electrical Engineering, University of Ljubljana);
+-- extended to decode both rotation directions by Tomaz Perme.
+--
 -- The encoder has half-cycle detents: it rests at A/B = "00" or "11" and
 -- one click moves between the two. A state machine sampled at 20 kHz arms
 -- a step when the pair leaves a rest state (the line that moves first

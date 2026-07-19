@@ -51,3 +51,11 @@ quartus_pgm -m jtag -o "p;output_files/PCB_Test.sof"
 ## Simulation
 
 `wave.do` is a ModelSim wave setup for inspecting the LED matrix controller signals at the top level.
+
+## Attribution
+
+The VGA timing core in `vga_controller.vhd` and the rotary encoder state
+machine in `rotary_encoder_controller.vhd` are based on example code by my
+thesis mentor, doc. dr. Andrej Trost (Faculty of Electrical Engineering,
+University of Ljubljana). Both were extended for this project (test
+patterns, enable logic, decoding of both rotation directions).

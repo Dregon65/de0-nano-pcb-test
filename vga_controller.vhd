@@ -1,3 +1,8 @@
+-- VGA timing core (800x600 @ 72 Hz counters and sync generation) based on
+-- example code by my thesis mentor A. Trost (Faculty of Electrical
+-- Engineering, University of Ljubljana). Enable logic, test patterns and
+-- RGB outputs added by Tomaz Perme.
+
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
